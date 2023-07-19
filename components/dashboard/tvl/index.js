@@ -9,7 +9,7 @@ import NumberDisplay from '../../number'
 import Image from '../../image'
 import { toArray, numberFormat } from '../../../lib/utils'
 
-export default ({ title = 'TVL', description = 'Total value locked by chain' }) => {
+export default ({ title = 'TVL', description = 'Total value locked by All Bridges' }) => {
   const { router_asset_balances, pools } = useSelector(state => ({ router_asset_balances: state.router_asset_balances, pools: state.pools }), shallowEqual)
   const { router_asset_balances_data } = { ...router_asset_balances }
   const { pools_data } = { ...pools }

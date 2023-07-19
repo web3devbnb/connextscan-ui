@@ -5,7 +5,7 @@ import { useSelector, shallowEqual } from 'react-redux'
 import Items from './items'
 import Spinner from '../../spinner'
 import Image from '../../image'
-import { CONNEXT, getChainData } from '../../../lib/object'
+import { CONNEXT, MarsPepe, getChainData } from '../../../lib/object'
 
 export default () => {
   const { chains } = useSelector(state => ({ chains: state.chains }), shallowEqual)
@@ -60,7 +60,7 @@ export default () => {
             </span> :
           chains_data ?
             <Image
-              src={CONNEXT.image}
+              src={MarsPepe.image}
               width={24}
               height={24}
               className="3xl:w-8 3xl:h-8"

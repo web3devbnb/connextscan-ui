@@ -254,7 +254,7 @@ export default () => {
           />
           <TVLChart
             title="TVL"
-            description="Total Value Locked by chain + by asset"
+            description="Total value locked by All Bridges + by asset"
             liquidity={metrics.liquidity_by_assets_chains}
             utilization={metrics.liquidity_utilization_by_assets_chains}
             prefix="$"

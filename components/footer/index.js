@@ -17,7 +17,7 @@ export default () => {
       <div className="w-full md:w-1/2 lg:w-1/3 min-w-max flex items-center justify-center md:justify-start text-slate-400 dark:text-slate-500 font-medium space-x-2">
         <span>Built with</span>
         <a
-          title="Connext Explorer"
+          title="MarsPepe Explorer"
           href={process.env.NEXT_PUBLIC_WEBSITE_URL}
           target="_blank"
           rel="noopener noreferrer"
@@ -41,11 +41,11 @@ export default () => {
               />
             </div>
           </div>
-          <span>Connext Protocol</span>
+          <span>MarsPepe Protocol</span>
         </a>
         {dependencies?.['@connext/sdk'] && (
           <a
-            href="https://github.com/connext/monorepo"
+            href="https://github.com/monorepo"
             target="_blank"
             rel="noopener noreferrer"
           >
